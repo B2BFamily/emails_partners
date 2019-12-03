@@ -1,0 +1,73 @@
+<container>
+    <wrapper class="secondary">
+        <row>
+            <columns large="1"></columns>
+            <columns large="10">
+                <p class="parthers__p parthers__p_header text-center">
+                    <span class="nowrap">
+                        Спасибо за регистрацию в B2B Family
+                    </span>
+                </p>
+                <spacer size="14"></spacer>
+                <p class="parthers__p text-center nowrap">
+                    <span class="nowrap">
+                        Вас зарегистрировал ваш партнер <strong class="strong">\{{company_name}}</strong>
+                    </span>
+                </p>
+                <spacer size="32"></spacer>
+            </columns>
+            <columns large="1"></columns>
+        </row>
+    </wrapper>
+</container>
+<container class="parthers__content">
+    <spacer size="44"></spacer>
+    <row>
+        <columns class="first" style="min-width: 156px;">
+            <img
+                src="https://gallery.mailchimp.com/75047e25381a9ee1c3d513466/images/1efe6bcb-ad34-4f2b-91c8-f2d78c67a25c.png">
+        </columns>
+        <columns>
+            <spacer size="15"></spacer>
+            <p class="parthers__p nowrap">Привет! Меня зовут <strong class="strong">Роман</strong>, <br> я основатель сервиса B2B Family.</p>
+            <spacer size="15"></spacer>
+            <p class="parthers__p nowrap">Рад первым приветствовать
+                вас <br> и вашу команду.</p>
+        </columns>
+        <columns class="last">
+        </columns>
+    </row>
+    <spacer size="39"></spacer>
+    <row>
+        <columns>
+            <p class="parthers__p">Ваш e-mail для входа в аккаунт: <a href="mailto:\{{email}}" target="_blank"><strong
+                        class="strong">\{{email}}</strong></a></p>
+            <p class="parthers__p">Ваш пароль для входа в аккаунт: <strong>\{{password}}</strong></p>
+            <spacer size="15"></spacer>
+            <p class="parthers__p parthers__p_grey">Пароль мы можете сменить в разделе <a href="\{{mail_and_signature_link}}" target="_blank"><strong
+                        class="strong strong_underline strong_grey">«Почта и подпись»</strong></a></p>
+        </columns>
+    </row>
+    <row>
+        <columns>
+            <spacer size="35"></spacer>
+            <button href="\{{button_link}}" class="parthers__btn expanded rounded large">Продолжить тестирование в B2B
+                Family</button>
+            <spacer size="17"></spacer>
+        </columns>
+    </row>
+    <row>
+        <columns>
+            <p class="parthers__p">Я уже назначил вам нашего первоклассного аккаунт-менеджера. <br>
+                Он поможет вам быстрее войти в курс дела.</p>
+            <spacer size="25"></spacer>
+            <p class="parthers__p"><span class="nowrap">Также вы сами можете обратиться к нам по любому вопросу по
+                    номеру</span></br>
+                <a href="tel:88007005240" target="_blank"><strong class="strong strong_underline">8 800 700 52
+                        40</strong></a>
+                или написав на <a href="mailto:support@b2bfamily.com" target="_blank"><strong
+                        class="strong strong_underline">support@b2bfamily.com.</strong></a></p>
+        </columns>
+    </row>
+    {{> features-and-blog}}
+</container>

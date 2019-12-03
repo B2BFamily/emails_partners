@@ -1,0 +1,24 @@
+<container>
+    <wrapper class="secondary">
+        <row>
+            <columns large="12">
+                <p class="parthers__p parthers__p_header text-center">
+                    Завершение оплаты amoCRM
+                </p>
+                <spacer size="32"></spacer>
+            </columns>
+        </row>
+    </wrapper>
+</container>
+<container class="parthers__content">
+    <spacer size="44"></spacer>
+    <row>
+        <columns>
+            <p class="parthers__p">Дата блокировки: <strong>\{{lock_date}}</strong></p>
+            <p class="parthers__p">Тариф: <strong>\{{tariff_name}}</strong></p>
+            <p class="parthers__p">Кол-во пользователей: <strong>\{{number_of_users}}</strong></p>
+        </columns>
+    </row>
+    {{> button-and-questions}}
+    <spacer size="44"></spacer>
+</container>

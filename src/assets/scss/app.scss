@@ -1,0 +1,84 @@
+@import "http://googleapis.com/css?family=PT+Sans&display=swap";
+@import 'settings';
+@import 'foundation-emails';
+@import 'template/template';
+
+
+$font-color: #555555;
+
+.parthers__p {
+    font-family: Open Sans!important;
+    font-size  : 15px;
+    line-height: 160%;
+    color      : $font-color;
+    margin: 0!important;
+}
+
+.parthers__p_header {
+    font-weight: bold;
+    font-size  : 20px;
+    line-height: 140%;
+    // text-align: center;
+}
+
+.parthers__p_grey {
+    color: #BABABA!important;
+    font-size: 13px;
+    line-height: 140%;
+    font-family: Roboto!important;
+}
+
+.parthers__content {
+    border-radius: 10px;
+}
+
+
+.underline {
+    border-bottom: 1px solid #545454;
+}
+
+.parthers__btn {
+    a {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 160%;
+    }
+}
+
+.custom-header {
+    .first {
+        padding-left: 30px!important;
+    }
+    .last {
+        padding-right: 30px!important;
+    }
+    .parthers__p {
+        font-size: 10px;
+    }
+}
+
+img {
+    width: none!important;
+}
+
+
+.strong {
+    font-family: Open Sans!important;
+    color:#555555!important;
+}
+
+.strong_underline, .strong_underline span  {
+    font-family: Open Sans!important;
+    color:#555555!important;
+    text-decoration: underline!important;
+}
+
+.strong_grey, .strong_grey span {
+    color: #BABABA!important;
+    font-family: Roboto!important;
+    font-weight: normal!important;
+}
+
+.nowrap {
+    white-space: nowrap;
+}

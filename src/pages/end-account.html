@@ -1,0 +1,35 @@
+<container>
+    <wrapper class="secondary">
+        <row>
+            <columns large="12">
+                <p class="parthers__p parthers__p_header text-center">
+                    Окончание подписки на B2B Family через 7 дней
+                </p>
+                <spacer size="32"></spacer>
+            </columns>
+        </row>
+    </wrapper>
+</container>
+<container class="parthers__content">
+    <spacer size="44"></spacer>
+    <row>
+        <columns>
+            <p class="parthers__p">Название компании: <strong>\{{company_name}}</strong></p>
+            <p class="parthers__p">E-mail пользователя: <a href="mailto:\{{manager_email}}" target="_blank"><strong
+                        class="strong">\{{manager_email}}</strong></a></p>
+            <p class="parthers__p">Телефон руководителя: <a href="tel:\{{manager_phone}}" target="_blank"><strong class="strong">\{{manager_phone}}</strong></a></p>
+        </columns>
+    </row>
+    <row>
+        <columns>
+            <spacer size="32"></spacer>
+            <p class="parthers__p">Пользователи, у которых оканчивается подписка:</p>
+            \{{#each this.users_emails}}
+                <p class="parthers__p"><a href="mailto:\{{this.user_email}}" target="_blank"><strong
+                    class="strong">\{{this.user_email}}</strong></a></p>
+            \{{/each}}
+        </columns>
+    </row>
+    {{> button-and-questions}}
+    <spacer size="44"></spacer>
+</container>

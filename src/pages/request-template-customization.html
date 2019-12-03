@@ -1,0 +1,26 @@
+<container>
+    <wrapper class="secondary">
+        <row>
+            <columns large="12">
+                <p class="parthers__p parthers__p_header text-center">
+                    Запрос настройки шаблонов
+                </p>
+                <spacer size="32"></spacer>
+            </columns>
+        </row>
+    </wrapper>
+</container>
+<container class="parthers__content">
+    <spacer size="44"></spacer>
+    <row>
+        <columns>
+            <p class="parthers__p">Название компании: <strong>\{{company_name}}</strong></p>
+            <p class="parthers__p">E-mail: <a href="mailto:\{{email}}" target="_blank"><strong
+                        class="strong">\{{email}}</strong></a></p>
+            <p class="parthers__p">Телефон: <a href="tel:\{{phone}}" target="_blank"><strong
+                        class="strong">\{{phone}}</strong></a></p>
+        </columns>
+    </row>
+    {{> button-and-questions}}
+    <spacer size="44"></spacer>
+</container>

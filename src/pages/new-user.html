@@ -1,0 +1,28 @@
+<container>
+    <wrapper class="secondary">
+        <row>
+            <columns large="1"></columns>
+            <columns large="10">
+                <p class="parthers__p parthers__p_header text-center">
+                    <span class="nowrap">
+                        Новый пользователь в компании клиента
+                    </span>
+                </p>
+                <spacer size="32"></spacer>
+            </columns>
+            <columns large="1"></columns>
+        </row>
+    </wrapper>
+</container>
+<container class="parthers__content">
+    <spacer size="44"></spacer>
+    <row>
+        <columns>
+            <p class="parthers__p">Название компании: <strong>\{{company_name}}</strong></p>
+            <p class="parthers__p">E-mail пользователя: <a href="mailto:\{{email}}" target="_blank"><strong
+                        class="strong">\{{email}}</strong></a></p>
+        </columns>
+    </row>
+    {{> button-and-questions}}
+    {{> features-and-blog}}
+</container>
