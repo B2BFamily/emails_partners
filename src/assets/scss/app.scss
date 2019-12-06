@@ -7,7 +7,7 @@
 $font-color: #555555;
 
 .parthers__p {
-    font-family: Open Sans!important;
+    font-family: 'Open Sans', 'Arial', 'Times New Roman' !important;
     font-size  : 15px;
     line-height: 160%;
     color      : $font-color;
@@ -25,7 +25,7 @@ $font-color: #555555;
     color: #BABABA!important;
     font-size: 13px;
     line-height: 140%;
-    font-family: Roboto!important;
+    font-family: 'Roboto', 'Arial', 'Times New Roman' !important;
 }
 
 .parthers__content {
@@ -46,7 +46,7 @@ $font-color: #555555;
 
 .parthers__btn {
     a {
-        font-family: Roboto;
+        font-family: 'Roboto', 'Arial', 'Times New Roman';
         font-size: 16px;
         line-height: 160%;
     }
@@ -70,20 +70,20 @@ img {
 
 
 .strong {
-    font-family: Open Sans!important;
+    font-family: 'Open Sans', 'Arial', 'Times New Roman' !important;
     color:#555555!important;
 }
 
 .strong_underline, .strong_underline span  {
-    font-family: Open Sans!important;
+    font-family: 'Open Sans', 'Arial', 'Times New Roman' !important;
     color:#555555!important;
     text-decoration: underline!important;
 }
 
 .strong_grey, .strong_grey span {
-    color: #BABABA!important;
-    font-family: Roboto!important;
-    font-weight: normal!important;
+    color: #BABABA !important;
+    font-family: 'Roboto', 'Arial', 'Times New Roman' !important;
+    font-weight: normal !important;
 }
 
 .nowrap {
